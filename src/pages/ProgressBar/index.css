@@ -1,0 +1,28 @@
+/* ProgressBar.css */
+
+.progress-bar-container {
+    margin: 20px 0;
+  }
+  
+  .progress-bar-label {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .progress-bar-track {
+    background-color: #eee;
+    border-radius: 20px;
+    position: relative;
+    height: 10px;
+    width: 100%;
+  }
+  
+  .progress-bar-fill {
+    background-color: orange;
+    border-radius: 20px;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
